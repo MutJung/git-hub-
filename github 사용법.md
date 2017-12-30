@@ -25,3 +25,29 @@ git hub를 사용해보자
     6) **git push -u origin master**
         * origin 주소에 master 가지를 만들어서 push 합니다.
         * 이렇게 해놓으면 나중에 **git push** 만 해도 된다.
+* * *
+github repository 에 연결된 local 디렉터리 수정 했을 때 어떻게 하나
+-----------------
+1. git status
+    * local 디렉터리 상태 확인
+    * 디렉터리가 수정되었으면 빨간색으로 수정된 파일 이름 보여준다 
+2. git add .
+3. git commit -m ""
+4. git push
+
+* * *
+branch 이용하기
+----------------
+1. git checkout -b [BRANCH_NAME]
+    * branch 만들고 master 에서 그 branch 로 이동
+    * 현재 어느 branch 인지는 git status 를 이용해 가능
+    * ex) git checkout -b branchHan
+2. 파일 추가 수정 
+3. git commit -m "commit03"
+4. git push -u origin [BRANCH_NAME]
+    * git push를 origin 의 BRANCH_NAME 에 연결 시켜서 다음부터 git push 하면 Branch 로 push 되게 한다.
+* * *
+5. git checkout master
+    * master 로 다시 checkout
+6. git merge [BRANCH_NAME]
+    * branch  merge 시켜주는듯
