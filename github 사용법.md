@@ -49,5 +49,15 @@ branch 이용하기
 * * *
 5. git checkout master
     * master 로 다시 checkout
+    * 나중에 git push -u master 로 계속 바꿔줘야 한다.
 6. git merge [BRANCH_NAME]
     * branch  merge 시켜주는듯
+    
+
+* * *
+정리
+==========
+1. git init 
+2. git add .
+3. git commit -m "[]"
+4. git push -u []
