@@ -25,3 +25,4 @@ git hub를 사용해보자
     6) **git push -u origin master**
         * origin 주소에 master 가지를 만들어서 push 합니다.
         * 이렇게 해놓으면 나중에 **git push** 만 해도 된다.
+zz
